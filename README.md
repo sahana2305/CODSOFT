@@ -31,9 +31,5 @@ Font styles and colors are used to enhance the visual appeal of the GUI.
 Scoring System:
 
 The scoring system is based on the outcomes defined in the schema dictionary. Scores are updated based on whether the player wins, loses, or the round ends in a draw.
-Overall, the code provides a user-friendly interface for playing the Rock, Paper, Scissors game against a computer opponent. The graphical elements and scoring system make the game interactive and enjoyable for the user.
-
-
-
-
+Overall, the code provides a user-friendly interface for playing the Rock, Paper, Scissors game against a computer opponent. The graphical elements and scoring system make the game interactive and enjoyable for the user
 
