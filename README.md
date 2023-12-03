@@ -33,3 +33,50 @@ Scoring System:
 The scoring system is based on the outcomes defined in the schema dictionary. Scores are updated based on whether the player wins, loses, or the round ends in a draw.
 Overall, the code provides a user-friendly interface for playing the Rock, Paper, Scissors game against a computer opponent. The graphical elements and scoring system make the game interactive and enjoyable for the user
 
+
+
+
+
+
+
+
+
+
+CONTACT BOOK:
+The provided code is a simple Tkinter-based Python script for a contact book application. This application provides a graphical user interface (GUI) for users to interact with their contacts. Here's a breakdown of the key components and functionalities:
+
+Main Window (root):
+
+The main application window is created using Tkinter (tk.Tk()).
+The window is titled "Contact Book" and has dimensions set to 300x300 pixels.
+It is configured with a light grey background.
+Data Entry Widgets:
+
+Entry widgets for entering contact information, including name and number, are provided.
+Labels for "Name" and "Number" are included above the respective entry widgets.
+Buttons:
+
+"Add Contact": Calls the add_contact function to add a new contact to the contact list.
+"Delete Contact": Calls the delete_contact function to remove the selected contact from the contact list.
+"Edit Contact": Calls the edit_contact function to modify the details of the selected contact.
+Listbox (contact_list):
+
+A Listbox widget is included to display the list of contacts.
+Contacts are shown in the format "Name: Number."
+Functions:
+
+add_contact: Retrieves name and number, adds a new contact entry to the contact_list, and clears the entry fields.
+delete_contact: Removes the selected contact from the contact_list.
+edit_contact: Opens a new window for editing the selected contact's details, updates the contact in the contact_list upon saving.
+Edit Window (edit_window):
+
+A separate window is created for editing contacts.
+It includes entry widgets for modifying the name and number of the selected contact.
+A "Save" button is provided to save the changes and close the edit window.
+The code follows a clean structure, separating UI components, functions, and event handling. It provides a basic but functional contact book with the ability to add, delete, and edit contacts through a user-friendly interface.
+
+
+
+
+
+
