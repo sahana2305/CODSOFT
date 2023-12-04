@@ -126,3 +126,30 @@ Overall, this script provides a user-friendly interface for generating passwords
 
 
 
+
+
+CALCULATOR:
+ code for simple calculator application using the Tkinter library in Python. It creates a basic GUI with buttons for digits, arithmetic operations, and functions such as clear and calculate.
+ Functions:
+
+button_click(value): Appends the clicked button value to the current entry.
+clear_display(): Clears the display entry.
+calculate(): Evaluates the expression in the entry and displays the result or an error.
+GUI Setup:
+
+Creates the main window (root) with the title "Simple Calculator."
+Adds an entry widget for display.
+Defines a grid of buttons, where each button corresponds to a digit, operator, or function.
+Button Creation:
+
+A nested loop creates buttons based on the layout defined in the buttons list.
+For each button, a command is specified, which is a function to be called when the button is clicked.
+Special treatment is given to the 'C' button (clear) and '=' button (calculate).
+Event Loop:
+
+The root.mainloop() call starts the Tkinter event loop, allowing the GUI to respond to user interactions.
+A couple of suggestions for improvement:
+
+Instead of using eval in the calculate function, which can be risky due to potential security issues, consider using a safer method to evaluate expressions. For example, you could use the ast module for a safer literal evaluation.
+
+You may want to handle division by zero separately to provide a more user-friendly error message.
